@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(194, 230, 218);
+    font-size: 15px;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    padding-left: 50px;
+    margin: 55px auto 20px;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,5); 
+}
+.container h2{
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+}
+.input_name{
+    width: 90%;
+    position: relative;
+    margin: 25px 25px auto auto;
+
+}
+.name{
+    width: 90%;
+    padding: 6px 0 5px 30px;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+.email{
+    width: 90%;
+    padding: 6px 0 5px 30px;
+    border: 1px solid;
+    border-radius: 5px;   
+} 
+.input_name svg{
+    color: rgb(29, 29, 252);   
+}
+.password{
+    width: 90%;
+    padding: 6px 0 5px 30px;
+    border: 1px solid ;
+    /* -webkit-transition: all 030s ease-in-out; */
+    border-radius: 5px;
+}
+.name:hover, .email:hover , .password:hover
+{
+    background-color: rgb(221, 213, 213);
+}
+.text_name:focus ,.name:focus, .email:focus , .password:focus
+{
+    border: 1px solid blue;
+}
+.radio-button{
+    margin-left:20%;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid;
+}
+.country{
+    display: inline-block;
+    width: 90%;
+    height:35px ;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 6.5%;
+}
+.country::-ms-expand{
+    display: none;
+    background-color: rgb(221, 213, 213);
+}
+.check-button{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 6.5%;
+}
+.button{
+    border-radius: 4px;
+    align-items: center;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 6.5%;
+    width: 90%;
+    padding: 6px 5px 10px 10px;
+    color: aliceblue;
+}
+.condition{
+    padding: 6px 5px 10px 10px;
+    margin-left: 2%;
+}
